@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #6f42c1, #3a236b, #000);
   }
   
@@ -27,6 +28,7 @@ body {
     #inputLabel {
         display: block;
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 2rem;
         font-weight: bold;
 
@@ -46,6 +48,11 @@ body {
     #input{
 
         width: 170px;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        box-shadow: #000;
+        
     }
 
     .button-group {
